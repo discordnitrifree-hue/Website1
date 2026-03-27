@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "For page transitions, smooth micro-interactions, and status animations"
+  "recharts": "For rendering live server TPS, RAM, and CPU usage graphs"
+  "date-fns": "For formatting uptime, last seen, and chat timestamps"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes without style conflicts"
+  "lucide-react": "Comprehensive icon set for the extensive feature list"
+
+images:
+  - path: "artifacts/mc-aternos-manager/public/images/hero-bg.png"
+    description: "Dark, moody, abstract 3D blocks resembling obsidian and deep stone with very subtle glowing neon green geometric lines, cinematic lighting, 4k, clean modern gaming aesthetic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/mc-aternos-manager/public/images/logo-icon.png"
+    description: "Minimalist glowing green geometric cube icon on a completely transparent background, flat design, modern tech logo style"
+    aspect_ratio: "1:1"
+
+notes:
+  - Using generated API hooks from @workspace/api-client-react
+  - Implementing aggressive polling (3-5s) on status endpoints to simulate real-time dashboard feel
+  - Using standard REST patterns for the 100+ quick action commands via the /api/server/command endpoint
